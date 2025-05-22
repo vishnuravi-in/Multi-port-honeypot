@@ -6,6 +6,11 @@ A multi-port deception service detecting unauthorized access attempts.
 - Attack logging with GeoIP
 - Real-time Telegram alerts
 
+#The sensitive log files are hidden so a snippet of the logs given below
+<p align="center">
+  <img src="images/log.png" alt="Honeypot Architecture Diagram" width="500"/>
+</p>
+
 ## Setup
 ```bash
 
@@ -16,9 +21,4 @@ pip3 install -r requirements.txt
 python3 src/fake_ssh.py
 python3 src/multipleport.py
 
-
-#The sensitive log files are hidden so a snippet of the logs given below
-<p align="center">
-  <img src="images/log.png" alt="Honeypot Architecture Diagram" width="500"/>
-</p>
 
